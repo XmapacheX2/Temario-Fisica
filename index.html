@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temario de Física</title>
+  <link rel="stylesheet" href="styleFisica.css" /> 
+  <link rel="icon" type="image/png" href="Foto/ciencia.png">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src= "Foto/ciencia.png" alt="Icono de Ciencia"> 
+      <h1>Temario de Física</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#equilibrio">Equilibrio</a></li>
+        <li><a href="#fuerzas">Fuerzas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="bienvenida">
+    <div class="hero-content">
+      <h1>Mecánica: Estática y Equilibrio</h1>
+      <p>Explora los principios fundamentales que rigen el reposo de los cuerpos.</p>
+    </div>
+  </section>
+
+  <section class="services" id="equilibrio">
+    <h2>Principios de Equilibrio</h2>
+    <div class="card-container">
+      
+      <div class="card">
+        <img src="Foto/primera_condicion.jpg" alt="Primera Condición de Equilibrio">
+        <div class="card-text">
+          <h3>1ra Condición de Equilibrio</h3>
+          <p>Suma de fuerzas igual a cero. Equilibrio Traslacional.</p>
+          <button onclick="location.href='condicion1.html'">Explorar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Foto/segunda_condicion.jpg" alt="Segunda Condición de Equilibrio">
+        <div class="card-text">
+          <h3>2da Condición de Equilibrio</h3>
+          <p>Suma de momentos (torques) igual a cero. Equilibrio Rotacional.</p>
+          <button onclick="location.href='condicion2.html'">Explorar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Foto/tipos_equilibrio.jpg" alt="Tipos de Equilibrio">
+        <div class="card-text">
+          <h3>Tipos de Equilibrio</h3>
+          <p>Estable, Inestable e Indiferente. ¿Cómo reacciona un cuerpo al ser perturbado?</p>
+          <button onclick="location.href='tipos_equilibrio.html'">Explorar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="fuerzas">
+    <h2>Fuerzas y Geometría del Cuerpo</h2>
+    <div class="card-container">
+      
+      <div class="card">
+        <img src="Foto/sistema_fuerzas.jpeg" alt="Sistema de Fuerzas">
+        <div class="card-text">
+          <h3>Sistema de Fuerzas</h3>
+          <p>Clasificación de sistemas de fuerzas: Colineales, Concurrentes y Paralelas.</p>
+          <button onclick="location.href='sistemas_fuerzas.html'">Explorar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Foto/centro_gravedad.jpg" alt="Centro de Gravedad">
+        <div class="card-text">
+          <h3>Centro de Gravedad</h3>
+          <p>El punto donde se concentra el peso de un cuerpo. Vital para el equilibrio.</p>
+          <button onclick="location.href='centro_gravedad.html'">Explorar</button>
+        </div>
+      </div>
+
+      <div class="card" style="visibility: hidden;"></div> 
+    </div>
+  </section>
+
+  <footer>
+    <p>Aportando a la comprensión de la física para un gran grupo de compañeros. ¡La base de la ingeniería!</p>
+    <p>T. S. de Física</p>
+  </footer>
+
+</body>
+</html>
